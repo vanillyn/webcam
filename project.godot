@@ -10,9 +10,15 @@ config_version=5
 
 [application]
 
-config/name="Ame"
+config/name="webcam"
+config/description="Connect with your love!"
+config/version="1"
 run/main_scene="res://node_2d.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
+boot_splash/show_image=false
+boot_splash/fullsize=false
+boot_splash/use_filter=false
+config/icon="uid://bahpaigqplw8f"
 
 [display]
 
